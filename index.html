@@ -1,1 +1,1170 @@
-<meta http-equiv="refresh" content="1;url=https://orcid.org/0000-0002-0589-2349" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabato Nocera @ Postdoctoral Researcher</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    :root {
+      --primary: #e07a5f;
+      --primary-mid: #cf664b;
+      --primary-deep: #b75239;
+      --secondary: #f2cc8f;
+      --bg: #fbf8f4;
+      --bg-soft: #f6f1ea;
+      --text-primary: #262220;
+      --text-body: #4c4541;
+      --text-muted: #746c67;
+      --border: rgba(0,0,0,0.08);
+      --primary-pale: rgba(224, 122, 95, 0.10);
+      --primary-edge: rgba(224, 122, 95, 0.28);
+      --shadow-sm: 0 1px 4px rgba(0,0,0,0.06), 0 3px 10px rgba(0,0,0,0.03);
+      --shadow-md: 0 10px 32px rgba(0,0,0,0.08), 0 2px 10px rgba(0,0,0,0.04);
+      --radius: 18px;
+      --nav-h: 68px;
+      --ease: cubic-bezier(.4,0,.2,1);
+      --dur: 0.26s;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: var(--bg);
+      color: var(--text-body);
+      font-size: 16px;
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: var(--primary); color: #fff; }
+    a {
+      color: var(--primary-mid);
+      text-decoration: none;
+      transition: color var(--dur) var(--ease), border-color var(--dur) var(--ease), background var(--dur) var(--ease), transform var(--dur) var(--ease);
+    }
+    a:hover { color: var(--primary-deep); }
+
+    nav {
+      position: fixed;
+      inset: 0 0 auto 0;
+      height: var(--nav-h);
+      z-index: 1000;
+      background: rgba(251,248,244,0.88);
+      backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: var(--max);
+      height: 100%;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .nav-brand {
+      font-size: 1.08rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      text-decoration: none;
+    }
+    .nav-brand:hover { color: var(--primary); }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+    }
+    .nav-links a {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.42rem 0.82rem;
+      border-radius: 999px;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      background: var(--primary-pale);
+      color: var(--primary-mid);
+    }
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-primary);
+      font-size: 1.3rem;
+    }
+
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 2rem; }
+    header, section { padding: 5rem 0; }
+    section.alt { background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,234,0.88)); }
+
+    .sec-title {
+      font-size: 2.18rem;
+      color: var(--text-primary);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.16;
+      margin-bottom: 2rem;
+    }
+    .subsec {
+      margin: 2.15rem 0 1rem;
+      font-size: 1.18rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+    .subsec::after {
+      content: '';
+      height: 1px;
+      background: var(--border);
+      flex: 1;
+    }
+
+    #about {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: calc(var(--nav-h) + 4.5rem);
+      padding-bottom: 4rem;
+      background:
+        radial-gradient(circle at top right, rgba(242,204,143,0.18), transparent 28%),
+        radial-gradient(circle at 0% 20%, rgba(224,122,95,0.12), transparent 26%),
+        linear-gradient(180deg, #fffefc 0%, #fbf8f4 100%);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.74);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.7);
+      box-shadow: var(--shadow-md);
+      border-radius: 28px;
+      padding: 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-card::before {
+      content: '';
+      position: absolute;
+      inset: 0 auto auto 0;
+      width: 220px;
+      height: 220px;
+      background: radial-gradient(circle, rgba(224,122,95,0.15), transparent 68%);
+      transform: translate(-22%, -28%);
+      pointer-events: none;
+    }
+    h1 {
+      font-size: clamp(2.7rem, 4.8vw, 4.25rem);
+      line-height: 1.06;
+      letter-spacing: -0.04em;
+      color: var(--text-primary);
+      margin-bottom: 0.85rem;
+      font-weight: 900;
+    }
+    .hero-name-accent { color: var(--primary); }
+    .hero-title-role {
+      color: var(--text-muted);
+      font-weight: 700;
+      font-size: clamp(1.45rem, 2.25vw, 1.95rem);
+      letter-spacing: -0.02em;
+    }
+    .hero-role {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.45rem;
+    }
+    .hero-bio {
+      max-width: 890px;
+      font-size: 1.04rem;
+      line-height: 1.9;
+      margin-bottom: 1.8rem;
+      color: var(--text-body);
+      text-wrap: pretty;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      border-radius: 999px;
+      border: 1.5px solid transparent;
+      padding: 0.74rem 1.2rem;
+      font-size: 0.94rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+    }
+    .btn:hover { text-decoration: none; transform: translateY(-2px); }
+    .btn-primary {
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--primary-mid));
+      box-shadow: 0 10px 24px rgba(224,122,95,0.28);
+    }
+    .btn-primary:hover { color: #fff; }
+    .btn-outline {
+      color: var(--text-muted);
+      border-color: var(--border);
+      background: rgba(255,255,255,0.8);
+    }
+    .btn-outline:hover {
+      color: var(--primary-mid);
+      border-color: var(--primary-edge);
+      background: var(--primary-pale);
+    }
+
+    .news-box {
+      margin-top: 1.5rem;
+      padding: 1rem 1.1rem 1.05rem;
+      border-radius: 16px;
+      background: rgba(246,241,234,0.72);
+      border: 1px solid rgba(224,122,95,0.14);
+    }
+    .news-title {
+      color: var(--text-primary);
+      font-size: 1rem;
+      font-weight: 800;
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+    }
+    .news-list {
+      list-style: none;
+      display: grid;
+      gap: 0.55rem;
+    }
+    .news-list li {
+      position: relative;
+      padding-left: 1rem;
+      color: var(--text-body);
+      font-size: 0.94rem;
+      line-height: 1.68;
+    }
+    .news-list li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+      font-weight: 900;
+    }
+
+    .journey-note {
+      margin: -1.05rem 0 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.98rem;
+    }
+    .split-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      align-items: stretch;
+    }
+    .split-col {
+      background: rgba(255,255,255,0.60);
+      border: 1px solid rgba(255,255,255,0.65);
+      border-radius: 24px;
+      padding: 1.2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: 100%;
+    }
+    .split-col-title {
+      font-size: 1.6rem;
+      color: var(--text-primary);
+      font-weight: 800;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+    .stack-list {
+      display: grid;
+      gap: 1rem;
+      position: relative;
+      flex: 1;
+    }
+    .stack-list::before {
+      content: '';
+      position: absolute;
+      left: 180px;
+      top: 0.8rem;
+      bottom: 0.8rem;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(224,122,95,0.34), rgba(224,122,95,0.10));
+      pointer-events: none;
+    }
+    .stack-item {
+      background: rgba(255,255,255,0.92);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      padding: 1.15rem 1.2rem;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 0.95rem 1.2rem;
+      align-items: start;
+      position: relative;
+      overflow: hidden;
+      transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+      min-height: 108px;
+    }
+    .stack-item::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: linear-gradient(180deg, var(--primary), var(--secondary));
+      opacity: 0.85;
+    }
+    .stack-item::after {
+      content: '';
+      position: absolute;
+      left: 180px;
+      top: 1.42rem;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #fff;
+      border: 3px solid var(--primary);
+      box-shadow: 0 0 0 5px rgba(224,122,95,0.08);
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+    .stack-item:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-edge);
+    }
+    .stack-date {
+      color: var(--primary-mid);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      line-height: 1.5;
+      padding-top: 0.15rem;
+    }
+    .stack-title {
+      color: var(--text-primary);
+      font-size: 1.06rem;
+      line-height: 1.38;
+      font-weight: 800;
+      margin-bottom: 0.2rem;
+    }
+    .stack-org {
+      color: var(--text-muted);
+      font-size: 0.93rem;
+      line-height: 1.6;
+      font-style: italic;
+    }
+
+    .grid-12 { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
+    .span-6 { grid-column: span 6; }
+
+    .card {
+      background: rgba(255,255,255,0.90);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur) var(--ease);
+      height: 100%;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-edge);
+    }
+    .teach-card, .pub-entry, .act-card, .role-card { padding: 1.25rem 1.3rem; }
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.8rem;
+      margin-bottom: 0.65rem;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.22rem 0.62rem;
+      border-radius: 999px;
+      background: var(--primary-pale);
+      border: 1px solid var(--primary-edge);
+      color: var(--primary-mid);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .card-title {
+      color: var(--text-primary);
+      font-size: 1.04rem;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+    .card-desc {
+      color: var(--text-body);
+      font-size: 0.94rem;
+      line-height: 1.72;
+    }
+    .teach-list {
+      list-style: none;
+      display: grid;
+      gap: 0.7rem;
+      margin-top: 0.8rem;
+    }
+    .teach-list li {
+      padding: 0.78rem 0.88rem;
+      border-radius: 14px;
+      background: rgba(246,241,234,0.7);
+      border: 1px solid rgba(224,122,95,0.10);
+    }
+    .teach-list strong {
+      color: var(--text-primary);
+      display: block;
+      margin-bottom: 0.08rem;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1rem;
+    }
+    .role-card { grid-column: span 6; }
+    .role-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.85rem;
+    }
+    .role-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, rgba(224,122,95,0.14), rgba(242,204,143,0.22));
+      border: 1px solid var(--primary-edge);
+      color: var(--primary-mid);
+      font-size: 1.05rem;
+      flex-shrink: 0;
+    }
+    .role-list {
+      list-style: none;
+      display: grid;
+      gap: 0.65rem;
+    }
+    .role-list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.8rem;
+      padding: 0.78rem 0.88rem;
+      border-radius: 14px;
+      background: rgba(246,241,234,0.7);
+      border: 1px solid rgba(224,122,95,0.10);
+    }
+    .role-event {
+      color: var(--text-primary);
+      font-weight: 800;
+      line-height: 1.45;
+    }
+    .mini-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.66rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.96);
+      border: 1px solid var(--border);
+      color: var(--text-body);
+      font-size: 0.84rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .mini-link:hover {
+      border-color: var(--primary-edge);
+      background: var(--primary-pale);
+      color: var(--primary-deep);
+      text-decoration: none;
+    }
+
+    .pub-section-label {
+      margin: 2.2rem 0 1rem;
+      color: var(--primary-mid);
+      font-size: 0.8rem;
+      font-weight: 900;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+    }
+    .pub-section-label:first-of-type { margin-top: 0; }
+    .pub-section-label::after {
+      content: '';
+      height: 1px;
+      background: var(--border);
+      flex: 1;
+    }
+    .pub-list { display: grid; gap: 0.9rem; }
+    .pub-entry {
+      position: relative;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+    .pub-entry::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      border-radius: 18px 0 0 18px;
+      background: linear-gradient(180deg, var(--primary), var(--secondary));
+      opacity: 0;
+      transition: opacity var(--dur) var(--ease);
+    }
+    .pub-entry:hover { box-shadow: var(--shadow-md); border-color: var(--primary-edge); }
+    .pub-entry:hover::before { opacity: 1; }
+    .pub-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.8rem;
+      margin-bottom: 0.55rem;
+    }
+    .pub-title {
+      color: var(--text-primary);
+      font-size: 1.06rem;
+      line-height: 1.42;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+    .pub-title span {
+      display: inline;
+      padding-bottom: 0.05rem;
+      border-bottom: 1px solid rgba(224,122,95,0.12);
+    }
+    .pub-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.25rem 0.56rem;
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(224,122,95,0.12), rgba(242,204,143,0.14));
+      border: 1px solid var(--primary-edge);
+      color: var(--primary-mid);
+      font-size: 0.74rem;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .pub-authors {
+      color: var(--text-body);
+      font-size: 0.92rem;
+      line-height: 1.7;
+      margin-bottom: 0.2rem;
+    }
+    .pub-venue {
+      color: var(--text-muted);
+      font-size: 0.91rem;
+      line-height: 1.7;
+    }
+    .pub-venue em { color: var(--primary-deep); font-style: italic; }
+    .pub-venue a {
+      font-weight: 700;
+      border-bottom: 1px solid transparent;
+      word-break: break-word;
+    }
+    .pub-venue a:hover { border-bottom-color: currentColor; }
+
+    .act-card { background: rgba(255,255,255,0.9); }
+    .act-head {
+      display: flex;
+      gap: 0.95rem;
+      align-items: flex-start;
+      margin-bottom: 0.6rem;
+    }
+    .act-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(224,122,95,0.14), rgba(242,204,143,0.22));
+      border: 1px solid var(--primary-edge);
+      color: var(--primary-mid);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+    .act-years {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 0.85rem;
+    }
+    .year-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.42rem;
+      padding: 0.28rem 0.55rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid var(--border);
+      color: var(--text-body);
+      font-size: 0.84rem;
+      font-weight: 700;
+    }
+    .year-chip b { color: var(--primary-mid); font-weight: 900; }
+    .link-row { margin-top: 0.85rem; display: flex; flex-wrap: wrap; gap: 0.55rem; }
+
+    footer {
+      position: relative;
+      margin-top: 1rem;
+      background: linear-gradient(180deg, #292422 0%, #211d1b 100%);
+      color: rgba(255,255,255,0.74);
+      text-align: center;
+      padding: 2rem 1rem 2.2rem;
+      font-size: 0.92rem;
+      letter-spacing: 0.01em;
+      border-top: 1px solid rgba(255,255,255,0.04);
+    }
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--secondary), var(--primary), transparent);
+      opacity: 0.8;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 980px) {
+      .split-grid, .service-grid, .grid-12 { grid-template-columns: 1fr; }
+      .role-card, .span-6 { grid-column: auto; }
+      .stack-list::before { display: none; }
+      .stack-item { grid-template-columns: 1fr; gap: 0.5rem; min-height: 0; }
+      .stack-item::after { display: none; }
+      .hero-card { padding: 2.4rem; }
+      .role-list li { flex-direction: column; align-items: flex-start; }
+    }
+    @media (max-width: 720px) {
+      .nav-links { display: none; }
+      .nav-toggle { display: block; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: var(--nav-h);
+        left: 0;
+        right: 0;
+        padding: 0.9rem 1rem 1rem;
+        background: rgba(255,255,255,0.96);
+        border-bottom: 1px solid var(--border);
+        box-shadow: var(--shadow-md);
+      }
+      .wrap, .nav-inner { padding-left: 1.2rem; padding-right: 1.2rem; }
+      header, section { padding: 3.6rem 0; }
+      #about { padding-top: calc(var(--nav-h) + 2.7rem); min-height: auto; }
+      .hero-card { padding: 1.7rem 1.35rem; border-radius: 22px; }
+      .sec-title { font-size: 1.9rem; margin-bottom: 1.7rem; }
+      .subsec { font-size: 1.08rem; }
+      .pub-head, .card-top { flex-direction: column; }
+      .pub-badge, .pill { align-self: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <nav id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#about" class="nav-brand">Sabato Nocera</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#other">Other Activities</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="about" aria-label="About Sabato Nocera" data-nav-section>
+    <div class="wrap">
+      <div class="hero-card reveal visible">
+        <h1><span class="hero-name-accent">Sabato Nocera</span> <span class="hero-title-role">· Postdoctoral Researcher</span></h1>
+        <p class="hero-role">Department of Computer Science, University of Salerno, Italy</p>
+		<p class="hero-bio" style="text-align: justify;">
+		
+		</p>
+        <div class="hero-actions">
+          <a href="mailto:snocera@unisa.it" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Email</a>
+          <a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ" target="_blank" rel="noopener" class="btn btn-outline"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-0589-2349" target="_blank" rel="noopener" class="btn btn-outline"><i class="ai ai-orcid"></i> ORCID</a>
+          <a href="https://dblp.org/pid/348/7961.html" target="_blank" rel="noopener" class="btn btn-outline"><i class="ai ai-dblp"></i> DBLP</a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=58881715500" target="_blank" rel="noopener" class="btn btn-outline"><i class="ai ai-scopus-square"></i> Scopus</a>
+        </div>
+        <div class="news-box">
+          <div class="news-title"><i class="fa-solid fa-bullhorn"></i> News</div>
+          <ul class="news-list">
+            <li><strong>Accepted at ASE 2026 - Research Papers:</strong> “On the Effects of Customized Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube Cloud”.</li>
+            <li><strong>Accepted at ASE 2026 - Tools and Datasets:</strong> “AIRBORNE: Augmented fIne-grained softwaRe Bill Of mateRials geNerator for stack ovErflow”.</li>
+            <li><strong>Accepted at Journal of Systems and Software (JSS):</strong> <a href="https://doi.org/10.1016/j.jss.2026.112971" target="_blank" rel="noopener">“Securing Web Apps With ChatGPT: A Teaching Plan for Undergraduate Students”</a>.</li>
+			<li><strong>Accepted at Empirical Software Engineering (EMSE):</strong> “Security Issues in Python Open-Source Software: A Mining Study From GitHub”.</li>
+            <li><strong>Accepted at Euromicro SEAA 2026:</strong> “Cryptography Bill of Materials Generation and Consumption: A Mining Study From GitHub”.</li>
+            <li><strong>Presentation at ICSE 2026:</strong> <a href="https://drive.google.com/file/d/1aPivADA0sNbBMq_Enjwy1u36uGVVrw7t/view?usp=sharing" target="_blank" rel="noopener">“Causal or Correlational? A Cohort Study on the Effects of Code Smells on Class Change- and Fault-Proneness”</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+	  <span id="experience"></span><span id="education"></span>
+  <section id="journey" class="alt" aria-labelledby="journey-h">
+    <div class="wrap">
+      <h2 class="sec-title">Experience and Education</h2>
+      <div class="split-grid reveal">
+        <article class="split-col" data-nav-section>
+          <h3 class="split-col-title">Experience</h3>
+          <div class="stack-list">
+            <article class="stack-item">
+              <div class="stack-date">2026 — Present</div>
+              <div>
+                <div class="stack-title">Postdoctoral Researcher</div>
+                <div class="stack-org">Department of Computer Science, University of Salerno, Fisciano SA, Italy</div>
+              </div>
+            </article>
+            <article class="stack-item">
+              <div class="stack-date">2024 — 2026</div>
+              <div>
+                <div class="stack-title">Research Fellow</div>
+                <div class="stack-org">Department of Computer Science, University of Salerno, Fisciano SA, Italy</div>
+              </div>
+            </article>
+            <article class="stack-item">
+              <div class="stack-date">2024</div>
+              <div>
+                <div class="stack-title">Visiting Researcher</div>
+                <div class="stack-org">Universidad Politécnica de Madrid, Madrid, Spain</div>
+              </div>
+            </article>
+          </div>
+        </article>
+
+	  
+        <article class="split-col" data-nav-section>
+          <h3 class="split-col-title">Education</h3>
+          <div class="stack-list">
+            <article class="stack-item">
+              <div class="stack-date">2022 — 2025</div>
+              <div>
+                <div class="stack-title">Ph.D. in Computer Science</div>
+                <div class="stack-org">Department of Computer Science, University of Salerno, Fisciano SA, Italy</div>
+              </div>
+            </article>
+            <article class="stack-item">
+              <div class="stack-date">2020 — 2022</div>
+              <div>
+                <div class="stack-title">M.Sc. in Computer Science</div>
+                <div class="stack-org">Department of Computer Science, University of Salerno, Fisciano SA, Italy</div>
+              </div>
+            </article>
+            <article class="stack-item">
+              <div class="stack-date">2017 — 2020</div>
+              <div>
+                <div class="stack-title">B.Sc. in Computer Science</div>
+                <div class="stack-org">Department of Computer Science, University of Salerno, Fisciano SA, Italy</div>
+              </div>
+            </article>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" aria-labelledby="svc-h">
+    <div class="wrap">
+      <h2 class="sec-title" id="svc-h">Services</h2>
+
+      <div class="subsec">Conference Services</div>
+      <div class="service-grid reveal">
+        <article class="card role-card">
+          <div class="role-header">
+            <div class="role-icon"><i class="fa-solid fa-people-group"></i></div>
+            <div class="card-title">Organizer</div>
+          </div>
+          <ul class="role-list">
+            <li><span class="role-event">A-SPPI 2025</span><a class="mini-link" href="https://conf.researchr.org/committee/profes-2025/a-sppi-2025-organizing-committee" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+          </ul>
+        </article>
+
+        <article class="card role-card">
+          <div class="role-header">
+            <div class="role-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="card-title">Web Chair</div>
+          </div>
+          <ul class="role-list">
+            <li><span class="role-event">PROFES 2025</span><a class="mini-link" href="https://conf.researchr.org/committee/profes-2025/profes-2025-organizing-committee" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+            <li><span class="role-event">WSESE 2025</span><a class="mini-link" href="https://conf.researchr.org/committee/icse-2025/wsese-2025-papers-web-chair" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+          </ul>
+        </article>
+
+        <article class="card role-card">
+          <div class="role-header">
+            <div class="role-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+            <div class="card-title">Student Volunteer</div>
+          </div>
+          <ul class="role-list">
+            <li><span class="role-event">PROFES 2025</span><a class="mini-link" href="https://conf.researchr.org/home/profes-2025" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+            <li><span class="role-event">FSE & ISSTA 2025</span><a class="mini-link" href="https://conf.researchr.org/home/fse-2025" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+            <li><span class="role-event">ICSE 2024</span><a class="mini-link" href="https://conf.researchr.org/home/icse-2024" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+          </ul>
+        </article>
+
+        <article class="card role-card">
+          <div class="role-header">
+            <div class="role-icon"><i class="fa-solid fa-users-rectangle"></i></div>
+            <div class="card-title">Program Committee</div>
+          </div>
+          <ul class="role-list">
+            <li><span class="role-event">EMPATH-IA 2025</span><a class="mini-link" href="https://sites.google.com/unisa.it/empath-ia/organizers" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="subsec">Journal Services</div>
+      <div class="service-grid reveal">
+        <article class="card role-card">
+          <div class="role-header">
+            <div class="role-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+            <div class="card-title">Reviewer</div>
+          </div>
+          <ul class="role-list">
+            <li><span class="role-event">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><a class="mini-link" href="https://dl.acm.org/journal/tosem" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+            <li><span class="role-event">Empirical Software Engineering (EMSE)</span><a class="mini-link" href="https://link.springer.com/journal/10664" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+            <li><span class="role-event">Multimedia Tools and Applications (MTAP)</span><a class="mini-link" href="https://link.springer.com/journal/11042" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="teaching" class="alt" aria-labelledby="teach-h">
+    <div class="wrap">
+      <h2 class="sec-title" id="teach-h">Teaching</h2>
+      <div class="grid-12 reveal">
+        <article class="card teach-card span-6">
+          <div class="card-top">
+            <div class="card-title">Lecturing Activities</div>
+            <span class="pill">2026</span>
+          </div>
+          <ul class="teach-list">
+            <li><strong>Enterprise Mobile Application Development</strong>Master's Degree in Computer Science, University of Salerno.</li>
+            <li><strong>Information Systems for Public Administration and Digital Services for Citizens</strong>Master (II level) in Information Technologies and Public Administration, University of Salerno.</li>
+          </ul>
+        </article>
+
+        <article class="card teach-card span-6">
+          <div class="card-top">
+            <div class="card-title">Teaching Assistance</div>
+            <span class="pill">2021–2025</span>
+          </div>
+          <ul class="teach-list">
+            <li><strong>Web Software Technologies</strong>Bachelor's Degree in Computer Science, University of Salerno.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" aria-labelledby="pub-h">
+    <div class="wrap">
+      <h2 class="sec-title" id="pub-h">List of Papers</h2>
+
+      <div class="pub-section-label">Journal Articles</div>
+      <div class="pub-list reveal">
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>What We Know About AIBOMs: Results From a Multivocal Literature Review on Artificial Intelligence Bills of Materials</span></div><div class="pub-badge">TOSEM · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Massimiliano Di Penta, Fatima Ahmed, Simone Romano, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>ACM Transactions on Software Engineering and Methodology</em>. <a href="https://doi.org/10.1145/3786773" target="_blank" rel="noopener">10.1145/3786773</a>.</div>
+        </article>
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Securing Web Apps With ChatGPT: A Teaching Plan for Undergraduate Students</span></div><div class="pub-badge">JSS · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, Francesco Casertano, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Journal of Systems and Software</em>. <a href="https://doi.org/10.1016/j.jss.2026.112971" target="_blank" rel="noopener">10.1016/j.jss.2026.112971</a>.</div>
+        </article>
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Security Issues in Python Open-Source Software: A Mining Study From GitHub</span></div><div class="pub-badge">EMSE · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Empirical Software Engineering</em>. <a href="https://doi.org/10.1007/s10664-026-10890-8" target="_blank" rel="noopener">10.1007/s10664-026-10890-8</a>.</div>
+        </article>
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>An Empirical Study on the Accuracy of GitHub’s Dependency Graph and the Nature of Its Inaccuracy</span></div><div class="pub-badge">IST · 2025</div></div>
+          <div class="pub-authors">Daniele Bifolco, Simone Romano, <strong>Sabato Nocera</strong>, Rita Francese, Giuseppe Scanniello, and Massimiliano Di Penta.</div>
+          <div class="pub-venue"><em>Information and Software Technology</em>. <a href="https://doi.org/10.1016/j.infsof.2025.107854" target="_blank" rel="noopener">10.1016/j.infsof.2025.107854</a>.</div>
+        </article>
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>On the Adoption of Software Bill of Materials in Open-Source Software Projects</span></div><div class="pub-badge">JSS · 2025</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Journal of Systems and Software</em>. <a href="https://doi.org/10.1016/j.jss.2025.112540" target="_blank" rel="noopener">10.1016/j.jss.2025.112540</a>.</div>
+        </article>
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Software Engineering Education: Results From a Training Intervention Based on SonarCloud When Developing Web Apps</span></div><div class="pub-badge">JSS · 2025</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Journal of Systems and Software</em>. <a href="https://doi.org/10.1016/j.jss.2024.112308" target="_blank" rel="noopener">10.1016/j.jss.2024.112308</a>.</div>
+        </article>
+      </div>
+
+      <div class="pub-section-label">Conference Proceedings</div>
+      <div class="pub-list reveal">
+	  
+	  <!-- 2026-->
+	  
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Causal or Correlational? A Cohort Study on the Effects of Code Smells on Class Change- and Fault-Proneness</span></div><div class="pub-badge">ICSE · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Sira Vegas, Giuseppe Scanniello, Massimiliano Di Penta, and Natalia Juristo.</div>
+          <div class="pub-venue"><em>Proceedings of the 48th International Conference on Software Engineering (ICSE)</em>. <a href="https://doi.org/10.1145/3744916.3787786" target="_blank" rel="noopener">10.1145/3744916.3787786</a> — <a href="https://drive.google.com/file/d/1aPivADA0sNbBMq_Enjwy1u36uGVVrw7t/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>On the Effects of Customized Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube Cloud</span></div><div class="pub-badge">ASE · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Sira Vegas, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)</em>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>AIRBORNE: Augmented Fine-Grained Software Bill of Materials Generator for Stack Overflow</span></div><div class="pub-badge">ASE · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Massimiliano Di Penta, Simone Romano, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)</em>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Are AIBOMs Welcome? On the Acceptance and Perception of Artificial Intelligence Bills of Materials on Hugging Face</span></div><div class="pub-badge">EASE · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Riccardo D’Avino, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 30th International Conference on Evaluation and Assessment in Software Engineering (EASE)</em> — <a href="https://drive.google.com/file/d/12TAPmIUnx9h5jUp2ZB3BnSGs77tDwria/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Cryptography Bill of Materials Generation and Consumption: A Mining Study From GitHub</span></div><div class="pub-badge">SEAA · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong> and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 52nd Euromicro Conference on Software Engineering and Advanced Applications (SEAA)</em>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Stop Comparing Apples and Oranges: Matching for Better Results in Mining Software Repositories Studies</span></div><div class="pub-badge">MSR · 2026</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Nyyti Saarimäki, Valentina Lenarduzzi, Davide Taibi, and Sira Vegas.</div>
+          <div class="pub-venue"><em>Proceedings of the 23rd International Conference on Mining Software Repositories (MSR)</em>. <a href="https://doi.org/10.1145/3793302.3793378" target="_blank" rel="noopener">10.1145/3793302.3793378</a> — <a href="https://www.researchgate.net/publication/400394836_Stop_Comparing_Apples_and_Oranges_Matching_for_Better_Results_in_Mining_Software_Repositories_Studies" target="_blank" rel="noopener">Pre-print</a>.</div>
+        </article>
+	  
+	  <!-- 2025-->
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Software Composition Analysis and Supply Chain Security in Apache Projects: An Empirical Study</span></div><div class="pub-badge">MSR · 2025</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Sira Vegas, Giuseppe Scanniello, and Natalia Juristo.</div>
+          <div class="pub-venue"><em>22nd IEEE/ACM International Conference on Mining Software Repositories (MSR)</em>. <a href="https://doi.org/10.1109/MSR66628.2025.00027" target="_blank" rel="noopener">10.1109/MSR66628.2025.00027</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Dealing With SonarQube Cloud: Initial Results From a Mining Software Repository Study</span></div><div class="pub-badge">ESEM · 2025</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Davide Fucci, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)</em>. <a href="https://doi.org/10.1109/ESEM64174.2025.00035" target="_blank" rel="noopener">10.1109/ESEM64174.2025.00035</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Causal Inference Needs More Than Analysis: The Role of Study Design</span></div><div class="pub-badge">FSE · 2025</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Sira Vegas, Giuseppe Scanniello, and Natalia Juristo.</div>
+          <div class="pub-venue"><em>Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering (FSE Companion)</em>. <a href="https://doi.org/10.1145/3696630.3731619" target="_blank" rel="noopener">10.1145/3696630.3731619</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Missing Threats: Dealing With the Treatment-Sensitive Factorial Structure Bias in Empirical Software Engineering</span></div><div class="pub-badge">FSE · 2025</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong> and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering (FSE Companion)</em>. <a href="https://doi.org/10.1145/3696630.3728527" target="_blank" rel="noopener">10.1145/3696630.3728527</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>ALOHA: A(IBOM) Tool Generator for Hugging Face</span></div><div class="pub-badge">EASE · 2025</div></div>
+          <div class="pub-authors">Riccardo D’Avino, <strong>Sabato Nocera</strong>, Daniele Bifolco, Federica Pepe, Massimiliano Di Penta, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering (EASE)</em>. <a href="https://doi.org/10.1145/3756681.3756998" target="_blank" rel="noopener">10.1145/3756681.3756998</a>.</div>
+        </article>
+		
+	  <!-- 2024-->
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Training for Security: Results From Using a Static Analysis Tool in the Development Pipeline of Web Apps</span></div><div class="pub-badge">ICSE · 2024</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 46th International Conference on Software Engineering: Software Engineering Education and Training (SEET@ICSE)</em>. <a href="https://doi.org/10.1145/3639474.3640073" target="_blank" rel="noopener">10.1145/3639474.3640073</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>If It’s Not SBOM, Then What? How Italian Practitioners Manage the Software Supply Chain</span></div><div class="pub-badge">ICSME · 2024</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Massimiliano Di Penta, Rita Francese, Simone Romano, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>IEEE International Conference on Software Maintenance and Evolution (ICSME)</em>. <a href="https://doi.org/10.1109/ICSME58944.2024.00077" target="_blank" rel="noopener">10.1109/ICSME58944.2024.00077</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?</span></div><div class="pub-badge">QUATIC · 2024</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Dario Di Nucci, Rita Francese, Fabio Palomba, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Quality of Information and Communications Technology (QUATIC)</em>. <a href="https://doi.org/10.1007/978-3-031-70245-7_28" target="_blank" rel="noopener">10.1007/978-3-031-70245-7_28</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>On the Accuracy of GitHub’s Dependency Graph</span></div><div class="pub-badge">EASE · 2024</div></div>
+          <div class="pub-authors">Daniele Bifolco, <strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE)</em>. <a href="https://doi.org/10.1145/3661167.3661175" target="_blank" rel="noopener">10.1145/3661167.3661175</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>MSR4SBOM: Mining Software Repositories for Enhanced Software Bills of Materials</span></div><div class="pub-badge">ESEM · 2024</div></div>
+          <div class="pub-authors">Giuseppe Scanniello, Massimiliano Di Penta, Simone Romano, Rita Francese, <strong>Sabato Nocera</strong>, Pietro Cassieri, Daniele Bifolco, and Fiorella Zampetti.</div>
+          <div class="pub-venue"><em>ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)</em>. <a href="https://doi.org/10.1145/3674805.3695390" target="_blank" rel="noopener">10.1145/3674805.3695390</a>.</div>
+        </article>
+		
+	  <!-- 2023-->
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Software Bill of Materials Adoption: A Mining Study From GitHub</span></div><div class="pub-badge">ICSME · 2023</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>IEEE International Conference on Software Maintenance and Evolution (ICSME)</em>. <a href="https://doi.org/10.1109/ICSME58846.2023.00016" target="_blank" rel="noopener">10.1109/ICSME58846.2023.00016</a>.</div>
+        </article>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps</span></div><div class="pub-badge">ICSE · 2023</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>45th IEEE/ACM International Conference on Software Engineering: Software Engineering Education and Training (SEET@ICSE)</em>. <a href="https://doi.org/10.1109/ICSE-SEET58685.2023.00010" target="_blank" rel="noopener">10.1109/ICSE-SEET58685.2023.00010</a>.</div>
+        </article>
+	  
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results From a Prospective Empirical Investigation</span></div><div class="pub-badge">EASE · 2023</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)</em>. <a href="https://doi.org/10.1145/3593434.3593957" target="_blank" rel="noopener">10.1145/3593434.3593957</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>Managing Vulnerabilities in Software Projects: The Case of NTT Data</span></div><div class="pub-badge">SEAA · 2023</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, Riccardo Burlon, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)</em>. <a href="https://doi.org/10.1109/SEAA60479.2023.00046" target="_blank" rel="noopener">10.1109/SEAA60479.2023.00046</a>.</div>
+        </article>
+		
+        <article class="pub-entry">
+          <div class="pub-head"><div class="pub-title"><span>A Large-Scale Fine-Grained Empirical Study on Security Concerns in Open-Source Software</span></div><div class="pub-badge">SEAA · 2023</div></div>
+          <div class="pub-authors"><strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.</div>
+          <div class="pub-venue"><em>49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)</em>. <a href="https://doi.org/10.1109/SEAA60479.2023.00069" target="_blank" rel="noopener">10.1109/SEAA60479.2023.00069</a>.</div>
+		
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <section id="other" class="alt" aria-labelledby="other-h">
+    <div class="wrap">
+      <h2 class="sec-title" id="other-h">Other Activities</h2>
+      <div class="grid-12 reveal">
+        <article class="card act-card span-6">
+          <div class="act-head"><div class="act-icon"><i class="fa-solid fa-robot"></i></div><div class="card-title">FIRST® LEGO® League</div></div>
+          <div class="card-desc">FIRST® LEGO® League is a competition in which teams of 9 to 16-year-olds present scientific projects addressing real-world challenges through robots’ design and programming.</div>
+          <div class="link-row"><a class="mini-link" href="https://fll.di.unisa.it/staff" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></div>
+          <div class="act-years"><span class="year-chip"><b>2024</b> National Final · Judge</span><span class="year-chip"><b>2023</b> National Semifinals · Judge</span></div>
+        </article>
+
+        <article class="card act-card span-6">
+          <div class="act-head"><div class="act-icon"><i class="fa-solid fa-mobile-screen-button"></i></div><div class="card-title">App Challenge «Sfida all'ultima App»</div></div>
+          <div class="card-desc">App Challenge is a competition in which Master’s students in Computer Science present cross-platform applications developed under the supervision of industry coaches.</div>
+          <div class="link-row"><a class="mini-link" href="https://www.appchallenge.it/organizzazione" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></div>
+          <div class="act-years"><span class="year-chip"><b>2025</b> Organization</span><span class="year-chip"><b>2024</b> Organization</span><span class="year-chip"><b>2021</b> Participant</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Sabato Nocera. All rights reserved.</footer>
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    navToggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', open);
+      navToggle.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+    });
+
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+      });
+    });
+
+    const navAnchors = document.querySelectorAll('.nav-links a');
+    const observed = document.querySelectorAll('[data-nav-section], section[id]');
+    const secObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navAnchors.forEach(a => a.classList.remove('active'));
+          const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-38% 0px -54% 0px' });
+    observed.forEach(el => secObserver.observe(el));
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          entry.target.style.transitionDelay = `${i * 0.03}s`;
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  </script>
+</body>
+</html>
